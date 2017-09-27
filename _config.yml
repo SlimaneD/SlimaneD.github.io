@@ -5,15 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Slimane Dridi, biologist"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Slimane Dridi"
+description              : "Research fellow at the Institute for Advanced Study in Toulouse."
+url                      : "https://slimaned.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : slimane_dridi
 facebook:
   username               :
   app_id                 :
@@ -79,11 +79,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Slimane Dridi"
+  avatar           : "/assets/images/photoSlimaneDridi.jpg"
+  bio              : "I am an evolutionary biologist and I am currently a research fellow in the Institute for advanced study in Toulouse.
+
+My research topics include the effects of natural selection on the evolution of learning and cognition in social interactions, the evolution of plasticity, the behavioral and genetic adaptations to changing environments. I am also generally interested in evolutionary and stochastic game theory, and dynamical systems. For more information, please click here.
+"
+  location         : "Institute for Advanced Study in Toulouse"
+  email            : slimane.dridi@iast.fr
   uri              :
   bitbucket        :
   codepen          :

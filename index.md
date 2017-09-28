@@ -1,3 +1,7 @@
+---
+layout: home
+author_profile: true
+---
 
 
 # Slimane Dridi, researcher in theoretical evolutionary biology

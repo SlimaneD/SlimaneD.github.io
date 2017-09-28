@@ -80,9 +80,10 @@ analytics:
 # Site Author
 author:
   name             : "Slimane Dridi"
-  avatar           : "/assets/images/photoSlimaneDridi.jpg"
+  avatar           : "/assets/images/photoSlimaneDridi3.jpg"
   bio              : ""
-  location         : "Institute for Advanced Study in Toulouse"
+  location         : <a href="https://www.google.com/maps/place/Toulouse+School+of+Economics/@43.5997561,1.4075494,13z/data=!4m8!1m2!2m1!1sInstitute+for+advanced+study+in+Toulouse!3m4!1s0x12aebb69221e25f3:0x8c88eb32c6562615!8m2!3d43.6053604!4d1.4311597">IAST</a>
+
   email            : slimane.dridi@iast.fr
   uri              :
   bitbucket        :

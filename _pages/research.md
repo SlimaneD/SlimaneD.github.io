@@ -4,7 +4,7 @@ permalink: /research/
 date: 2017-09-29T02:10:20+00:00
 ---
 
-## Learning dynamics of heterogeneous agents in *N*-player, *m*-action games.
+## Learning dynamics of heterogeneous agents in *N*-player, *m*-action games. <a name="learnGames"></a>
 
 ![image-left](/assets/images/Fig2.jpg){: .align-left}{:width="500px" }
 
@@ -21,6 +21,9 @@ Learning is involved in virtually every behavior of humans and animals, but clas
 ## Evolution of cognitive sophistication for learning in games
 
 ![image-left](/assets/images/figAnBeh.jpg){: .align-left}{:width="400px" }
+
+![image-left](/assets/images/figAnBeh2.jpg){: .align-left}{:width="400px" }
+
 
 In the field of comparative cognition, researchers are generally interested in evaluating the cognitive abilities of different species. A recurrent research topic in this field is whether other animals than humans are able to form beliefs about the strategy used by social partners. This is a requirement for higher levels of cognitive sophistication, such as theory of mind. In an exhaustive article published in Animal Behaviour, we (with L. Lehmann) applied the framework mentioned above to investigate whether individuals who are able to reinforce actions without trying them out (“hypothetical reinforcement learners”) will necessarily prevail over simpler trial-and-error learners, when social interactions occur between population members. This ability to imagine non-realized payoffs can allow one to form beliefs about opponent’s behavior. We found that trial-and-error learning can be the evolutionarily stable learning rule in certain cases, in particular when the average social interaction can be described as a Prisoner’s Dilemma game, and individuals interact multiple times together (a repeated game). However, in other games (Hawk-Dove and coordination games) and when interactions were not repeated between population members, hypothetical reinforcement learning was the evolutionarily stable rule most of the time. This research thus shows that natural selection does not necessarily lead to an increase in cognitive power, even in the absence of cost for sophisticated cognition. Ongoing projects include a consideration of more cognitive types in evolutionary competition.
 

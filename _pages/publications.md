@@ -10,7 +10,8 @@ date: 2017-09-29T02:10:20+00:00
 
 ## Articles
 
-- Dridi, S., and E. Akçay (2017). Learning to cooperate: The evolution of social rewards in repeated interactions, *The American Naturalist* (in press).
+
+- Dridi, S., and E. Akçay (2018). Learning to cooperate: The evolution of social rewards in repeated interactions, *The American Naturalist*, 191 (1). [PDF](/assets/articles/Dridi17.pdf){: .btn .btn--warning}
 
 - Dridi, S., and L. Lehmann (2016). Environmental complexity favors the evolution of learning, *Behavioral Ecology*, 27 (3): 842–850. [PDF](/assets/articles/Dridi15b.pdf){: .btn .btn--warning}
 

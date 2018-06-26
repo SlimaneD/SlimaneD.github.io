@@ -4,9 +4,6 @@ permalink: /publications/
 date: 2017-09-29T02:10:20+00:00
 ---
 
-## Preprints
-
-- Dridi, S., and E. Akçay (2016). Learning to cooperate: The evolution of social rewards in repeated interactions, *Biorxiv* preprint. [PDF](/assets/articles/Dridi16.pdf){: .btn .btn--warning}
 
 ## Articles
 

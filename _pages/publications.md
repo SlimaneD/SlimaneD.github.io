@@ -6,7 +6,7 @@ date: 2017-09-29T02:10:20+00:00
 
 ## Preprints
 
-- - Dridi, S. (2019). Plasticity in evolutionary games, *Biorxiv*, 509604. [PDF](/assets/articles/PlasticityEvolGames.pdf){: .btn .btn--warning}
+- Dridi, S. (2019). Plasticity in evolutionary games, *Biorxiv*, 509604. [PDF](/assets/articles/PlasticityEvolGames.pdf){: .btn .btn--warning}
 
 
 ## Articles

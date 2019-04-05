@@ -45,6 +45,8 @@ Phenotypic plasticity can take various forms, from developmental trajectories, t
 
 [Dridi & Lehmann, 2015b, Behavioral Ecology](http://beheco.oxfordjournals.org/content/27/3/842){: .btn .btn--success .btn--large}
 
+[Dridi 2019, Biorxiv](https://doi.org/10.1101/509604){: .btn .btn--success .btn--large}
+
 <br><br>
 
 ## The evolution of social preferences in reinforcement learners

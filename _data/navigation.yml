@@ -6,6 +6,8 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Covid-19"
+    url: /covid19/
   - title: "CV"
     url: /assets/cvSlimaneDridi.pdf
   # - title: "Sitemap"

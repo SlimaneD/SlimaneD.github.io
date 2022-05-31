@@ -6,7 +6,7 @@ date: 2017-09-29T02:10:20+00:00
 
 ## Preprints
 
-- Alger, I., S. Dridi, J. Stieglitz, and M. Wilson (2022), The evolution of early hominin food production and sharing, *IAST Working papers*, 140. [PDF](/assets/articles/foodSharingWP.pdf){: .btn .btn--warning}
+- Alger, I., S. Dridi, J. Stieglitz, and M. Wilson (2022). The evolution of early hominin food production and sharing, *IAST Working papers*, 140. [PDF](/assets/articles/foodSharingWP.pdf){: .btn .btn--warning}
 - Dridi, S. (2019). Plasticity in evolutionary games, *Biorxiv*, 509604. [PDF](/assets/articles/PlasticityEvolGames.pdf){: .btn .btn--warning}
 
 ## Articles

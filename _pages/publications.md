@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 permalink: /publications/
-date: 2017-09-29T02:10:20+00:00
 ---
 ## Preprints
 

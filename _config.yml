@@ -13,10 +13,11 @@ minimal_mistakes_skin    : "contrast" # "air", "contrast", "dark", "dirt", "mint
 
 # Site Settings
 locale                   : "en"
-title                    : "Slimane Dridi, scientist"
+title                    : "Slimane Dridi | Data Scientist"
 title_separator          : "-"
 name                     : "Slimane Dridi"
-description              : "Freelance scientist."
+description              : "Data scientist and mathematical modeller focused on sports analytics, strategic interaction, and performance."
+site_last_updated        : 2026-09-15
 url                      : "https://slimaned.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -53,6 +54,10 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+footer_scripts:
+  - /assets/js/main.min.js
+  - /assets/js/external-links.js
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -84,8 +89,8 @@ analytics:
 # Site Author
 author:
   name             : "Slimane Dridi"
-  avatar           : "/assets/images/photoSlimaneDridi4.jpg"
-  bio              : ""
+  avatar           : "/assets/images/photoRando.jpeg"
+  bio              : "Data scientist and mathematical modeller interested in sports strategy and performance."
   location         :
 
   email            : slimane.dridi@gmail.com
@@ -133,6 +138,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
+  - _config.dev.yml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js

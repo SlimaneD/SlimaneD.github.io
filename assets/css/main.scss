@@ -6,3 +6,41 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Portfolio components */
+body { background-color: #f3f6f7; }
+.greedy-nav, .greedy-nav .hidden-links { background-color: #f3f6f7; }
+.greedy-nav .hidden-links::after { border-color: #f3f6f7 transparent; }
+
+@media (min-width: 80em) {
+  .masthead__inner-wrap,
+  #main,
+  .page__footer footer { max-width: 1500px; }
+}
+
+.portfolio-hero { padding: 1.5rem 0 2.5rem; }
+.portfolio-hero h1 { max-width: 18ch; font-size: clamp(2rem, 5vw, 3.7rem); line-height: 1.08; }
+.portfolio-eyebrow, .project-label { color: #3d6b77; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; }
+.portfolio-lead { max-width: 44rem; font-size: 1.15rem; }
+.project-feature, .project-grid, .strength-grid, .figure-gallery { display: grid; gap: 1.5rem; }
+.project-feature { align-items: center; grid-template-columns: minmax(0, 1.15fr) minmax(15rem, 1fr); margin: 1.5rem 0 3rem; }
+.project-feature img, .project-card img, .figure-gallery img { width: 100%; margin: 0; border-radius: 0.35rem; }
+.project-grid, .strength-grid, .figure-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.project-card, .strength-grid > div { overflow: hidden; border: 1px solid #e4e7e8; border-radius: 0.4rem; background: #fff; }
+.project-card__body, .strength-grid > div { padding: 1.25rem; }
+.project-card--text { display: flex; align-items: center; min-height: 20rem; }
+.project-lead-image { display: block; width: min(100%, 46rem); margin: 2rem auto; }
+.figure-gallery figure { margin: 0; }
+.figure-gallery figcaption { padding-top: 0.5rem; color: #5b6265; font-size: 0.8rem; }
+.project-figure { margin: 2rem auto; }
+.project-figure img { display: block; width: min(100%, 50rem); margin: 0 auto; border-radius: 0.35rem; }
+.project-figure figcaption { max-width: 50rem; margin: 0.5rem auto 0; color: #5b6265; font-size: 0.8rem; }
+.result-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem; }
+.result-grid > div { display: flex; flex-direction: column; padding: 1.25rem; border: 1px solid #e4e7e8; border-radius: 0.4rem; text-align: center; }
+.result-grid strong { color: #3d6b77; font-size: 2rem; line-height: 1.2; }
+.result-grid span { margin-top: 0.35rem; font-weight: 700; }
+.result-grid small { margin-top: 0.2rem; color: #5b6265; }
+
+@media (max-width: 700px) {
+  .project-feature, .project-grid, .strength-grid, .figure-gallery, .result-grid { grid-template-columns: 1fr; }
+}

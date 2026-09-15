@@ -2,12 +2,12 @@
 main:
   - title: "About me"
     url: /about/
-  - title: "Research"
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Academic Work"
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Covid-19"
-    url: /covid19/
   - title: "CV"
     url: /assets/cvSlimaneDridi.pdf
   # - title: "Sitemap"

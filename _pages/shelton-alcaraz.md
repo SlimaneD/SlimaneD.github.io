@@ -20,8 +20,6 @@ The central question is whether Shelton could gain an advantage from a classic c
 [Open in Google Colab](https://colab.research.google.com/github/SlimaneD/Shelton-Alcaraz-USOpen26/blob/main/SheltonAlcaraz.ipynb){: .btn .btn--info}
 [Original LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7503228324257656832/){: .btn .btn--inverse}
 
-![Payoff-difference analysis for Shelton versus Alcaraz](/assets/images/shelton_alcaraz/shelton_alcaraz_payoff_difference.png){: .project-lead-image}
-
 ## Descriptive evidence
 
 Among Shelton's charted service points for which the return landed in play, the historical point-win rates were:

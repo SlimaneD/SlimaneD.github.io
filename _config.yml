@@ -80,7 +80,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "custom" # Cloudflare Web Analytics
+  cloudflare:
+    site_token           : "ae88c0a746a5424e8bcbc67f4887d6bc"
   google:
     tracking_id          :
 

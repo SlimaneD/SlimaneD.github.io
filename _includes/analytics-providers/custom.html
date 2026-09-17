@@ -1,3 +1,3 @@
-<!-- start custom analytics snippet -->
-
-<!-- end custom analytics snippet -->
+{% if site.analytics.cloudflare.site_token %}
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"{{ site.analytics.cloudflare.site_token }}"}'></script>
+{% endif %}

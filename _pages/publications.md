@@ -8,7 +8,7 @@ permalink: /publications/
 
 ## Articles
 
-- Alger, I., S. Dridi, J. Stieglitz, and M. Wilson (2023). The evolution of early hominin food production and sharing, *Proceedings of the National Academy of Sciences*, 120 (25). [PDF](/assets/articles/Alger2023.pdf){: .btn .btn--warning}
+- Alger, I., S. Dridi, J. Stieglitz, and M. Wilson (2023). The evolution of early hominin food production and sharing, *Proceedings of the National Academy of Sciences*, 120 (25). [PDF](/assets/articles/Alger2023.pdf){: .btn .btn--warning} [Notebook](https://www.wolframcloud.com/obj/slimane.dridi0/Published/The%20evolution%20of%20early%20hominin%20food%20production%20and%20sharing.nb){: .btn .btn--info}
 - Dridi, S., and E. Akçay (2018). Learning to cooperate: The evolution of social rewards in repeated interactions, *The American Naturalist*, 191 (1). [PDF](/assets/articles/Dridi17.pdf){: .btn .btn--warning}
 - Dridi, S., and L. Lehmann (2016). Environmental complexity favors the evolution of learning, *Behavioral Ecology*, 27 (3): 842–850. [PDF](/assets/articles/Dridi15b.pdf){: .btn .btn--warning}
 - Dridi, S., and L. Lehmann (2015). A model for the evolution of reinforcement learning in fluctuating games, *Animal Behavior*, 104: 87–114. [PDF](/assets/articles/Dridi15.pdf){: .btn .btn--warning}

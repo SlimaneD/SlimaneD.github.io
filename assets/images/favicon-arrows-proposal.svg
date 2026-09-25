@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">SD arrow favicon proposal</title>
+  <rect width="256" height="256" rx="38" fill="#001f5a"/>
+  <g fill="none" stroke="#f7f9fc" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 73C78 55 45 70 45 96C45 120 105 118 105 145C105 171 70 180 45 160"/>
+    <path d="M45 160L69 161M45 160L55 182"/>
+    <path d="M145 75V166M145 75C190 74 211 91 211 120C211 147 190 165 145 166"/>
+    <path d="M145 166L165 148M145 166L167 182"/>
+  </g>
+  <circle cx="210" cy="54" r="8" fill="#f3890b"/>
+</svg>

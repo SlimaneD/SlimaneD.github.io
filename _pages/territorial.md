@@ -10,7 +10,7 @@ excerpt: "A reproducible analysis of the comparison between territorial behavior
 
 [View source code](https://github.com/SlimaneD/football-aggression-index){: .btn .btn--primary}
 [Launch in Binder](https://mybinder.org/v2/gh/SlimaneD/football-aggression-index/main?labpath=territorial_behavior_in_football.ipynb){: .btn .btn--success}
-[Open in Google Colab](https://colab.research.google.com/github/SlimaneD/football-aggression-index/blob/main/territorial_behavior_in_football.ipynb){: .btn .btn--info}
+[Open in Google Colab](https://colab.research.google.com/github/SlimaneD/football-aggression-index/blob/master/territorial_behavior_in_football.ipynb){: .btn .btn--info}
 [Original LinkedIn post](https://www.linkedin.com/feed/update/urn:li:share:7509329504947859456/){: .btn .btn--inverse}
 
 ## Do football teams defend their home turf like animals defend territory?

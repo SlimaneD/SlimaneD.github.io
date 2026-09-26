@@ -15,9 +15,9 @@ excerpt: "A reproducible analysis of the comparison between territorial behavior
 
 ## Do football teams defend their home turf like animals defend territory?
 
-Football teams notoriously behave differently at home and away. The common wisdom is that teams tend to dominate the game and employ higher pressing when they are receiving. The exact reason why is not really clear. After all, per football association rules, football pitches have standardized dimensions and playing surface. The preferred explanations I've heard are psychological, related to crowd support. For anyone who has been to a stadium for a professional game, this is very real, especially when considering the hostility displayed against visitors by some of the most zealous fans. But to me this doesn't explain the positioning of players on the field or their decisions, which should rather be a tactical choice dictated by the coach. This should not stem from how many people chant your name in the stands.
+Football teams notoriously behave differently at home and away. The common wisdom is that teams tend to dominate the game and employ higher pressing when playing at home. The exact reason why is not really clear. After all, per football association rules, football pitches have standardized dimensions and playing surface. The preferred explanations I've heard are psychological, related to crowd support. For anyone who has been to a stadium for a professional game, this is very real, especially when considering the hostility displayed against visitors by some of the most zealous fans. But to me this doesn't explain the positioning of players on the field or their decisions, which should rather be a tactical choice dictated by the coach. The players' tactical decisions should not stem from how many people chant their names in the stands. There does seem however to be something about playing on home soil that changes how players and coaches approach the game. What then makes home so special?
 
-This question can actually be linked to a celebrated model for understanding the evolution of strategies in animal contests, the Hawk-Dove game. In trying to answer the question of why animals rarely engage in deadly fights, John Maynard Smith and George Price devised an evolutionary game capturing the situation of two animals contesting ownership of the same territory. In their most advanced variant, they considered four strategies depending on whether the individual owns the territory or not:
+This question can actually be linked to a celebrated model for understanding the evolution of strategies in animal contests, the Hawk-Dove game. In trying to answer the question of why animals rarely engage in deadly fights, John Maynard Smith and George Price devised an evolutionary game capturing the situation of two animals contesting domination over the same territory. In their most advanced variant, a critical aspect was precisely pre-existing territory "ownership", i.e., which animal owns the ground before the contest begins. They considered four strategies:
 
 | Strategy | As owner | As invader |
 |---|---|---|
@@ -45,7 +45,7 @@ That's a testable claim. So I tested it.
 
 I used publicly available match data from four of Europe's top leagues across the 2015/16 season — around 1,500 matches in total. For every team, in every match, I measured how often they contested the ball high up the pitch, in the opponent's own half, regardless of whether the attempt actually won the ball back. I cared about *willingness to contest*, not skill at winning the ball — those are different things, and conflating them would have quietly broken the whole comparison (a team that's simply better at tackling isn't the same as a team that's more willing to go looking for the ball in the first place). So concretely, what I measured is the number of defensive actions of a focal team that occurred in the opponent's half when the opponent had the ball, per total opponent possessions. Let's call that measure the raw aggression score.
 
-Below I show the European ranking with respect to the raw aggression score, for all the teams in following four leagues: Premier League, La Liga, Serie A, and Ligue 1.
+Below I show the European ranking with respect to the raw aggression score, for all the teams in the following four leagues: Premier League, La Liga, Serie A, and Ligue 1.
 
 <iframe src="/assets/images/european_ranking_table.html"
         width="100%" height="500px" frameborder="0">
@@ -54,7 +54,7 @@ Below I show the European ranking with respect to the raw aggression score, for 
 
 ## Comparing home vs away behavior per team
 
-The real answer to our initial question can only come from the comparison of home aggression vs away aggression scores. **75 of the 80 teams in the dataset — 93.8% of them — contested the ball more aggressively at home than away.** That's not a slight tilt. It's close to universal, and it holds up individually within every league in the sample, not just on average across all of them.
+The real answer to our initial question can only come from the comparison of home aggression vs away aggression scores: I found that **75 of the 80 teams in the dataset — 93.8% of them — contested the ball more aggressively at home than away.** That's not a slight tilt. It's close to universal, and it holds up individually within every league in the sample, not just on average across all of them.
 
 <iframe src="/assets/images/bourgeois_gap_histogram.html"
         width="115%" height="540px" frameborder="0">

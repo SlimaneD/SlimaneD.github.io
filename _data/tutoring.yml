@@ -1,14 +1,14 @@
 rates:
+  - level: "Licence (statistiques, probabilités, algèbre linéaire, analyse)"
+    price: "40 €/h"
+  - level: "Prépa 1re année (BCPST, ECG)"
+    price: "40 €/h"
   - level: "Anglais (lycée, prépa, adultes)"
     price: "30 €/h"
   - level: "Lycée (Première, Terminale — maths spécialité, maths expertes)"
-    price: "40 €/h"
-  - level: "Prépa 1re année (BCPST, ECG)"
+    price: "30 €/h"
+  - level: "Master, mémoire, programmation, cours en anglais"
     price: "50 €/h"
-  - level: "Licence (statistiques, probabilités, algèbre linéaire, analyse)"
-    price: "50 €/h"
-  - level: "Master, mémoire, R/Python, cours en anglais"
-    price: "60 €/h"
 
 packages:
   - label: "Forfait 10 h"

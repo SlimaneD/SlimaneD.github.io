@@ -1,0 +1,17 @@
+rates:
+  - level: "Anglais (lycée, prépa, adultes)"
+    price: "30 €/h"
+  - level: "Lycée (Première, Terminale — maths spécialité, maths expertes)"
+    price: "40 €/h"
+  - level: "Prépa 1re année (BCPST, ECG)"
+    price: "50 €/h"
+  - level: "Licence (statistiques, probabilités, algèbre linéaire, analyse)"
+    price: "50 €/h"
+  - level: "Master, mémoire, R/Python, cours en anglais"
+    price: "60 €/h"
+
+packages:
+  - label: "Forfait 10 h"
+    detail: "−10 % sur le tarif horaire"
+  - label: "Stage vacances prépa 1re année (4 × 2 h)"
+    detail: "320 €"

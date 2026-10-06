@@ -8,6 +8,8 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Tutoring"
+    url: /cours/
   - title: "CV"
     url: /assets/cvSDgen_en.pdf
   # - title: "Sitemap"

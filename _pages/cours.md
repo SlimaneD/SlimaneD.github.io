@@ -119,7 +119,7 @@ Cal.config.forwardQueryParams = true;
 
   Cal.ns.decouvre15min("inline", {
     elementOrSelector:"#my-cal-inline-decouvre15min",
-    config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true"},
+    config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true","locale":"fr"},
     calLink: "slimane-dridi-prof/decouvre15min",
   });
 

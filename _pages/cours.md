@@ -1,5 +1,5 @@
 ---
-title: "Cours particuliers"
+title: "Cours particuliers maths, statistiques et Python à Toulouse"
 permalink: /cours/
 layout: single
 author_profile: false

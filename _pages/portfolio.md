@@ -35,6 +35,20 @@ A cross-league analysis of pressing behavior through the lens of the Hawk-Dove g
 
 ---
 
+### [What makes pressing succeed?](/portfolio/pressing-ml/)
+{: .project-title}
+<p class="project-label">SPORTS ANALYTICS · FOOTBALL · MACHINE LEARNING · TRACKING DATA</p>
+
+![Pressing sequence visualisation](/assets/images/pressing_ML1.png){: .align-left}{:width="320px"}
+
+Machine learning on SkillCorner tracking data to predict pressing success — logistic regression and DeepSets. Part 2 of the territorial behavior investigation.
+
+[Case study](/portfolio/pressing-ml/){: .btn .btn--info .btn--small} [Source code](https://github.com/SlimaneD/football-aggression-index){: .btn .btn--dark .btn--small}
+
+<br clear="all">
+
+---
+
 ### [Shelton–Alcaraz pre-match analysis (2026 US Open)](/portfolio/shelton-alcaraz/)
 {: .project-title}
 <p class="project-label">SPORTS ANALYTICS · TENNIS</p>

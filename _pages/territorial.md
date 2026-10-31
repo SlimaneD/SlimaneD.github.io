@@ -103,3 +103,7 @@ But the two detours (Barcelona, and the tracking-data match) matter as much as t
 A natural follow-up question I couldn't address here: If Bourgeois is such a widespread tendency in European football, is it just a cultural norm or is it a winning strategy? Answering such a question would require constructing what game theorists call the *payoff matrix* of our ownership *game* in football, that is understanding the probability to win a match given the pressing strategy of both teams in a match, a far more involved (and exciting) task than what we achieved here.
 
 But all in all, apparently territory is territory, whether you're defending a nest or a penalty box.
+
+---
+
+*Part 2: [What makes pressing succeed? Machine learning on tracking data](/portfolio/pressing-ml/)*

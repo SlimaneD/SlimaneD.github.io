@@ -17,7 +17,7 @@ excerpt: "Animation-driven feature exploration, logistic regression and DeepSets
 
 Part 1 measured pressing aggressiveness as the frequency of pressing attempts in the opponent's half. But pressing aggressiveness has another dimension: the *style* of the press. Do home teams close in faster on the ball holder? Do they outnumber the holding team near the ball more often? And do these stylistic choices actually predict success?
 
-To answer this we needed tracking data (recordings of every player's exact position on the pitch many times per second) rather than discrete match events. We used the [SkillCorner open dataset](https://github.com/SkillCorner/opendata): broadcast tracking data for 20 Australian A-League matches from the 2022/23 season, yielding 1,410 labelled pressing chains. Each chain ends in a binary outcome: the pressing team wins the ball back (through a clean recovery or by forcing a turnover), or the holding team retains possession.
+To answer this we needed tracking data (recordings of every player's exact position on the pitch many times per second) rather than discrete match events. We used the [SkillCorner open dataset](https://github.com/SkillCorner/opendata): broadcast tracking data for 20 Australian A-League matches from the 2024/25 season, yielding 1,410 labelled pressing chains. Each chain ends in a binary outcome: the pressing team wins the ball back (through a clean recovery or by forcing a turnover), or the holding team retains possession.
 
 ## Data exploration and visualization
 
@@ -40,9 +40,11 @@ Example 3 in the video also teaches us something important: even when the pressi
 Based on the above exploration, we designed features that we thought had an effect on recovery probability at the end of a pressing chain. Two of the dimensions we hand-crafted captured pressing aggressiveness (closing speed of the nearest pressers, numerical superiority of the pressing team near the ball holder) while others were contextual (pitch zone, home/away status). A logistic regression on these features serves as an interpretable baseline.
 
 
-After training, the logistic regression shows that **numerical superiority and closing speed have an effect on pressing success**. Having more players around the ball than the holding team does more to tip the outcome than arriving faster, though both dimensions raise the probability of a regain.
+After training, the logistic regression shows that **numerical superiority and closing speed have an effect on pressing success**. Having more players around the ball than the holding team is the strongest and most robust predictor. Closing speed's main effect is less stable across cross-validation folds.
 
-The home/away coefficient is positive and significant: home teams recover the ball more often (42.8% vs 37.4%, p = 0.046). But here is the unexpected result. When we compare home and away teams on the features that *predict* success (closing speed and numerical superiority), we find no significant difference. Home teams do not press in a stylistically more aggressive way. Yet their pressing is more effective.
+
+The home/away coefficient is positive: home teams recover the ball more often (42.8% vs 37.4%). But here is the unexpected result. When we compare home and away teams on the features that predict success (closing speed and numerical superiority), we find no significant difference. Home teams do not press in a stylistically more aggressive way. Yet their pressing is more effective. The plot below reveals an additional pattern: there is an interaction between closing speed and home status, with home teams benefiting more from increasing their closing speed. This could be due to the holding team being more susceptible to pressure when the home team closes in fast on them. We discuss this further in the conclusion.
+
 
 <iframe src="/assets/images/home_away_pdp.html"
         width="120%" height="500px" frameborder="0">
@@ -61,7 +63,13 @@ We tested this with **DeepSets**, a permutation-invariant deep learning architec
 </iframe>
 
 
-The snapshot DeepSets model reached an AUC of approximately 0.65, comparable to the logistic regression. The temporal extension underperformed (not shown here), likely because 1,410 pressing chains are too few for it to learn that early keyframes add little predictive signal beyond the end-of-chain snapshot. The conclusion is that our hand-crafted features capture the geometrically relevant information relatively well; there is no large residual signal left in the raw spatial data.
+Under repeated cross-validation (10-fold, 5 repeats), the DeepSets model reaches an AUC of 0.66 +/- 0.04, comparable to the logistic regression's 0.62 +/- 0.05. The temporal extension underperformed (not shown here), likely because 1,410 pressing chains are too few for it to learn that early keyframes add little predictive signal beyond the end-of-chain snapshot. The conclusion is that our hand-crafted features capture the geometrically relevant information relatively well; there is no large residual signal left in the raw spatial data.
+
+## Limitations
+
+Effect sizes are small throughout: the strongest logistic regression predictor (numerical superiority) has an odds ratio of 1.3 per standard deviation, and the models' AUC of 0.62--0.66 means most of the variance in pressing outcomes remains unexplained. The 1,410 pressing chains come from only 20 matches involving 13 teams, so chains within the same match are not independent; a proper grouped evaluation would likely widen confidence intervals. Our results identify real patterns, but they are subtle ones.
+
+
 
 
 ## Wrap up
@@ -70,7 +78,7 @@ The snapshot DeepSets model reached an AUC of approximately 0.65, comparable to 
   <div>
     <strong>42.8 %</strong>
     <span>Home pressing success</span>
-    <small>vs 37.4 % away (p = 0.046)</small>
+    <small>vs 37.4 % away</small>
   </div>
   <div>
     <strong>0</strong>
@@ -79,7 +87,8 @@ The snapshot DeepSets model reached an AUC of approximately 0.65, comparable to 
   </div>
 </div>
 
-Combined with Part 1, the home advantage in pressing now operates along two independently documented dimensions: home teams press *more often* and *more effectively*. The effectiveness gap is not explained by observable differences in pressing style or spatial organisation, which suggests the mechanism runs through channels not visible in the tracking data: possibly psychological effects via crowd influence on the away team's composure, or aspects of home-team collective movement that the current features do not capture.
+Combined with Part 1, the home advantage in pressing now operates along two independently documented dimensions: home teams press more often and more effectively. The effectiveness gap is not explained by pressing style: home and away teams close in at the same speed and commit similar numbers of players. But the interaction between home status and closing speed reveals that the same pressing intensity yields a higher recovery probability for home teams. Since the pressing team's behavior is indistinguishable, the asymmetry likely operates through the holding team's response: away ball holders may be more prone to losing composure under high closing speed, whether through crowd pressure, unfamiliarity, or lower confidence in tight spaces. Our models cannot isolate the mechanism, but the interaction points clearly to a defender-side rather than presser-side explanation.
+
 
 The Bourgeois pattern from evolutionary game theory runs deeper than Part 1 suggested. It is not just that home teams are more willing to contest the ball; their contests are more likely to succeed, and we have yet to find what explains this difference.
 

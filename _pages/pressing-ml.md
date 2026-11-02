@@ -69,7 +69,7 @@ Under repeated cross-validation (10-fold, 5 repeats), the DeepSets model reaches
 
 Effect sizes are small throughout: the strongest logistic regression predictor (numerical superiority) has an odds ratio of 1.3 per standard deviation, and the models' AUC of 0.62--0.66 means most of the variance in pressing outcomes remains unexplained. The 1,410 pressing chains come from only 20 matches involving 13 teams, so chains within the same match are not independent; a proper grouped evaluation would likely widen confidence intervals. Our results identify real patterns, but they are subtle ones.
 
-Another limitation is that we ignored one important dimension throughout the analysis: the risk associated with a pressing strategy. We found that numerical supriority near the ball holder was a relatively good predictor of pressing success, but committing players to pressing means leaving open spaces behind them. One way to measure this risk dimension would be to try and relate the number of players exerting pressure to opportunities created for the holding team. This is a natural next step: in sequences where the press fails, do opponents exploit the space left behind? 
+Another limitation is that we ignored one important dimension throughout the analysis: the risk associated with a pressing strategy. We found that numerical superiority near the ball holder was a relatively good predictor of pressing success, but committing players to pressing means leaving open spaces behind them. One way to measure this risk dimension would be to try and relate the number of players exerting pressure to opportunities created for the holding team. This is a natural next step: in sequences where the press fails, do opponents exploit the space left behind? 
 
 
 
